@@ -70,9 +70,3 @@ docker compose run --rm attention-sim 1000 10000 100000 -o output/chart.png
 
 From 1k to 100k tokens, attention cost multiplies by **10,000x**.
 
-## Interview sentence
-
-> "I built an offline simulator that charts attention cost. I plotted the linear
-> intuition against the real N² curve on a log scale, so the gap is obvious. The
-> number: going 100x longer in context is 10,000x more attention work — which is
-> exactly why context compression is an engineering decision, not a nice-to-have."
