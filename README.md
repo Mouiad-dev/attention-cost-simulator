@@ -62,6 +62,7 @@ pytest                                          # run the 8 tests
 # Docker (fully offline, one command):
 docker compose run --rm attention-sim 1000 10000 100000 -o output/chart.png
 ```
+<img width="1080" height="720" alt="image" src="https://github.com/user-attachments/assets/78cf387a-8f28-49f6-a84b-8676c366c7f0" />
 
 ---
 
