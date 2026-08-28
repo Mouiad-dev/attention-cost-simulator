@@ -1,0 +1,10 @@
+services:
+  attention-sim:
+    build: .
+    # Mount a local folder into the container so the chart it draws lands
+    # on YOUR machine, not trapped inside the container.
+    volumes:
+      - ./output:/app/output
+    # Default command; override at runtime, e.g.:
+    #   docker compose run --rm attention-sim 1000 50000 200000 -o output/big.png
+    command: ["1000", "10000", "100000", "-o", "output/attention_cost.png"]
